@@ -1,3 +1,13 @@
+"""************************************************************************************
+                            The source code of FS-WOA
+                It is programmed by Sungwook Cho and Seong S. Cheon
+         Department of mechanical engineering, Kongju National University
+                                   South Korea
+                              Date: March 1st, 2026
+                               All rights reserved.
+                               csw5046@smail.kongju.ac.kr
+*************************************************************************************"""
+
 import  time
 import numpy as np
 
@@ -158,5 +168,6 @@ class OptimizationAlgorithms:
             sols = np.stack(new_sols)
 
         elapsed = time.perf_counter() - start_time
+
 
         return best_values, elapsed
